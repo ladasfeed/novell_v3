@@ -1,0 +1,39 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+
+    .content {
+        inset: 0;
+        position: absolute;
+        z-index: 2;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0.5);
+    }
+
+    .basicNext {
+        height: 40px;
+        width: 100%;
+        font-size: 40px;
+        bottom: 100px;
+        position: absolute;
+        cursor: pointer;
+    }
+
+
+    .action {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+}

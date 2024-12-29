@@ -1,0 +1,19 @@
+.container {
+    position: fixed;
+    left: 0;
+    top: 50px;
+    width: 300px;
+    background-color: rgb(59 59 59);
+    height: calc(100dvh - 50px);
+}
+
+.actions {
+    padding: 5px;
+    background-color: gray;
+    margin: 16px 0;
+}
+
+.portsList {
+    margin-top: 16px;
+    color: white;
+}

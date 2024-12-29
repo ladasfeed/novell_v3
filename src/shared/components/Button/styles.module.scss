@@ -1,0 +1,17 @@
+.container {
+    padding: 5px 9px;
+    transition: .2s;
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.329);
+
+    &:hover {
+        color: rgb(191, 191, 191);
+    }
+
+    .label {
+        cursor: pointer;
+        position: absolute;
+        inset: 0;
+    }
+}

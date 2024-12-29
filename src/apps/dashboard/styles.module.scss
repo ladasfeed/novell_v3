@@ -1,0 +1,14 @@
+.container {
+    margin: 16px;
+}
+
+.actions {
+    display: flex;
+    margin: 28px 0;
+    gap: 28px;
+}
+
+.novellList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
